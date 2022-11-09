@@ -9,12 +9,12 @@
   background-color: black;
 }
 
-input {
-  text-align: right;
-  height: 15px;
-  background-color: #23221f;
-  color: white;
-}
+/*input {*/
+/*  text-align: right;*/
+/*  height: 15px;*/
+/*  background-color: #23221f;*/
+/*  color: white;*/
+/*}*/
 
 button {
   width: 35px;
@@ -25,4 +25,12 @@ button {
 .last-line-button {
   width: 76px;
   height: 25px;
+}
+
+.display {
+  background-color: #23221f;
+  color: white;
+  max-width: 350px;
+  width: 155px;
+  text-align: right;
 }
