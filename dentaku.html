@@ -1,0 +1,55 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>電卓</title>
+  <meta name="dentakuapp" content="">
+  
+
+  <link rel="stylesheet" href="dentaku.css">
+</head>
+
+<body>
+ <div class="wrapper">
+   <h1>電卓</h1>
+   <div>
+   <input readonly id="result" type="text" value="0">
+   </div>
+   <div>
+    <button onclick="clickbutton(this)">7</button>
+    <button onclick="clickbutton(this)">8</button>
+    <button onclick="clickbutton(this)">9</button>
+    <button onclick="clickbutton(this)">+</button>
+   </div>
+   <div>
+    <button onclick="clickbutton(this)">4</button>
+    <button onclick="clickbutton(this)">5</button>
+    <button onclick="clickbutton(this)">6</button>
+    <button onclick="clickbutton(this)">-</button>
+   </div>
+   <div>
+    <button onclick="clickbutton(this)">1</button>
+    <button onclick="clickbutton(this)">2</button>
+    <button onclick="clickbutton(this)">3</button>
+    <button onclick="clickbutton(this)">*</button>
+   </div>
+   <div>
+    <button onclick="clickbutton(this)">0</button>
+    <button onclick="clickbutton(this)">00</button>
+    <button onclick="clickbutton(this)">.</button>
+    <button onclick="clickbutton(this)">/</button>
+ </div>
+ <div>
+    <button onclick="clickbutton(this)" class="last-line-button">AC</button>
+    <button onclick="clickbutton(this)" class="last-line-button">=</button>
+ </div>
+ </div>
+    
+  
+
+  
+  <script src="dentaku.js" async></script>
+</body>
+
+</html>
