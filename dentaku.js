@@ -1,6 +1,8 @@
+
+ 
  function clickbutton(target) {
-  // console.log(target);
   let result = document.getElementById("result");
+  console.log(result);
   let target_value = target.innerHTML;
   
   if (target_value == "AC") {
@@ -8,11 +10,13 @@
     result.innerHTML = "0";
   } else if (target_value == "=") {
     result.innerHTML = eval(result.innerHTML)
-//   } else {
+  } else {
     if (result.innerHTML == "0") {
       result.innerHTML = target_value;
     } else {
     result.innerHTML += target_value;
-  }
+  } if (target_value.slice(-1) == "+||-||*||/" ) {
+   result.innerHTML = result.innerHTML.replace(-2, -1);  }
+  
 }
 }

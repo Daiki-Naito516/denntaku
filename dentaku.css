@@ -27,7 +27,7 @@ button {
   height: 25px;
 }
 
-.display {
+#result {
   background-color: #23221f;
   color: white;
   max-width: 350px;
