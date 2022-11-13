@@ -15,8 +15,13 @@
       result.innerHTML = target_value;
     } else {
     result.innerHTML += target_value;
-  } if (target_value.slice(-1) == "+||-||*||/" ) {
-   result.innerHTML = result.innerHTML.replace(-2, -1);  }
-  
+  } if (result.innerHTML.slice(-1) === result.innerHTML.slice(-1) == "+" || result.innerHTML.slice(-1) == "-" || result.innerHTML.slice(-1) == "*" || result.innerHTML.slice(-1) == "/") {
+   result.innerHTML = target_value;
 }
 }
+}
+
+// if (result.slice(-1) == "+" || result.slice(-1) == "-" || result.slice(-1) == "*" || result.slice(-1) == "/" ) {
+//   result.innerHTML = result.innerHTML.replace(-2, -1);  
+// }
+
