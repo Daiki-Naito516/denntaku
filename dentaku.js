@@ -2,7 +2,6 @@
  
  function clickbutton(target) {
   let result = document.getElementById("result");
-  console.log(result);
   let target_value = target.innerHTML;
   
   if (target_value == "AC") {
@@ -17,9 +16,11 @@
     result.innerHTML += target_value;
   } if (result.innerHTML.slice(-1) === result.innerHTML.slice(-1) == "+" || result.innerHTML.slice(-1) == "-" || result.innerHTML.slice(-1) == "*" || result.innerHTML.slice(-1) == "/") {
    result.innerHTML = target_value;
+  console.log(result.innerHTML);
+   }
 }
 }
-}
+
 
 // if (result.slice(-1) == "+" || result.slice(-1) == "-" || result.slice(-1) == "*" || result.slice(-1) == "/" ) {
 //   result.innerHTML = result.innerHTML.replace(-2, -1);  
