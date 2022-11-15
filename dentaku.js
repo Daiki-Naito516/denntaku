@@ -19,7 +19,7 @@
         result.innerHTML.slice(-1) == "*" || 
         result.innerHTML.slice(-1) == "." ||
         result.innerHTML.slice(-1) == "/") {
-   result.innerHTML = result.innerHTML.replace(-2,-1)
+   result.innerHTML = target_value;
   console.log(result.innerHTML);
    }
 }
