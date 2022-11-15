@@ -17,8 +17,9 @@
   } if (result.innerHTML.slice(-1) == "+" || 
         result.innerHTML.slice(-1) == "-" || 
         result.innerHTML.slice(-1) == "*" || 
+        result.innerHTML.slice(-1) == "." ||
         result.innerHTML.slice(-1) == "/") {
-   result.innerHTML = target_value;
+   result.innerHTML = result.innerHTML.replace(-2,-1)
   console.log(result.innerHTML);
    }
 }
