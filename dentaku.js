@@ -14,7 +14,10 @@
       result.innerHTML = target_value;
     } else {
     result.innerHTML += target_value;
-  } if (result.innerHTML.slice(-1) === result.innerHTML.slice(-1) == "+" || result.innerHTML.slice(-1) == "-" || result.innerHTML.slice(-1) == "*" || result.innerHTML.slice(-1) == "/") {
+  } if (result.innerHTML.slice(-1) == "+" || 
+        result.innerHTML.slice(-1) == "-" || 
+        result.innerHTML.slice(-1) == "*" || 
+        result.innerHTML.slice(-1) == "/") {
    result.innerHTML = target_value;
   console.log(result.innerHTML);
    }
