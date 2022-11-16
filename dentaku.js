@@ -12,9 +12,9 @@
   } else {
     if (result.innerHTML == "0") {
       result.innerHTML = target_value;
-    } else {
+    } else if {
     result.innerHTML += target_value;
-  } if (result.innerHTML.slice(-1) == "+" || 
+  } else (result.innerHTML.slice(-1) == "+" || 
         result.innerHTML.slice(-1) == "-" || 
         result.innerHTML.slice(-1) == "*" || 
         result.innerHTML.slice(-1) == "." ||
