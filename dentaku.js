@@ -9,19 +9,17 @@
     result.innerHTML = "0";
   } else if (target_value == "=") {
     result.innerHTML = eval(result.innerHTML)
-  } else {
-    if (result.innerHTML == "0") {
+  } else if (result.innerHTML == "0") {
       result.innerHTML = target_value;
-    } else if {
-    result.innerHTML += target_value;
-  } else (result.innerHTML.slice(-1) == "+" || 
+  } else if (result.innerHTML.slice(-1) == "+" || 
         result.innerHTML.slice(-1) == "-" || 
         result.innerHTML.slice(-1) == "*" || 
         result.innerHTML.slice(-1) == "." ||
         result.innerHTML.slice(-1) == "/") {
    result.innerHTML = target_value;
   console.log(result.innerHTML);
-   }
+    } else {
+    result.innerHTML += target_value;
 }
 }
 
