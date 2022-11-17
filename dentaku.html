@@ -5,58 +5,47 @@
   <meta charset="utf-8">
   <title>電卓</title>
   <meta name="dentakuapp" content="">
-  
-
-
   <link rel="stylesheet" href="dentaku.css">
 </head>
-
 <body>
- 
   <table class="dentaku">
- 
-   <div class="display">
    <tr>
     <td colspan="4" id="result">0</td>
-   </tr>
-   </div>
-   
+   </tr>   
    <tr>
-    <td colspan="1"><button onclick="clickbutton(this)">7</button></td>
-    <td colspan="1"><button onclick="clickbutton(this)">8</button></td>
-    <td colspan="1"><button onclick="clickbutton(this)">9</button></td>
-    <td colspan="1"><button onclick="clickbutton(this)">+</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)"  value ="7">7</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)"  value ="8">8</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)"  value ="9">9</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)"  value ="+">+</button></td>
    </tr>
    <tr>
-    <td colspan="1"><button onclick="clickbutton(this)">4</button></td>
-    <td colspan="1"><button onclick="clickbutton(this)">5</button></td>
-    <td colspan="1"><button onclick="clickbutton(this)">6</button></td>
-    <td colspan="1"><button onclick="clickbutton(this)">-</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)" value ="4">4</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)" value ="5">5</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)" value ="6">6</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)" value ="-">-</button></td>
    </tr>
    <tr>
-    <td colspan="1"><button onclick="clickbutton(this)">1</button></td>
-    <td colspan="1"><button onclick="clickbutton(this)">2</button></td>
-    <td colspan="1"><button onclick="clickbutton(this)">3</button></td>
-    <td colspan="1"><button onclick="clickbutton(this)">*</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)" value ="1">1</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)" value ="2">2</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)" value ="3">3</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)" value ="*">*</button></td>
    </tr>
    <tr>
-    <td colspan="1"><button onclick="clickbutton(this)">0</button></td>
-    <td colspan="1"><button onclick="clickbutton(this)">00</button></td>
-    <td colspan="1"><button onclick="clickbutton(this)">.</button></td>
-    <td colspan="1"><button onclick="clickbutton(this)">/</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)" value ="0">0</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)" value ="00">00</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)" value =".">.</button></td>
+    <td colspan="1"><button onclick="clickbutton(this)" value ="/">/</button></td>
    </tr>
-
- <tr>
-    <td colspan="2"><button onclick="clickbutton(this)" class="last-line-button">AC</button></td>
-    <td colspan="2"><button onclick="clickbutton(this)" class="last-line-button">=</button></td>
- </tr>
- </teble>
- 
-    
+   <tr>
+    <td colspan="2">
+     <button onclick="clickbutton(this)" class="last-line-button" value="AC">AC</button>
+    </td>
+    <td colspan="2">
+     <button onclick="clickbutton(this)" class="last-line-button" value="=">=</button>
+    </td>
+   </tr>
+  </teble>
   
-
-  
-  <script src="dentaku.js" async></script>
+  <script src="dentaku.js"></script>
 </body>
-
 </html>
